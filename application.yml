@@ -14,8 +14,6 @@ spring:
     hibernate:
       ddl-auto: update  # Schema update behavior (create, create-drop, update, validate)
     show-sql: true  # Enable showing of SQL statements in logs
-  config:
-    import: optional:configserver:http://localhost:8888
 eureka:
   client:
     fetchRegistry: true  # Fetch registry from Eureka server
