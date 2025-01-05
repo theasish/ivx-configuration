@@ -1,7 +1,6 @@
-spring:
-  eureka:
-    client:
-      register-with-eureka: true
-      fetch-registry: true
-      service-url:
-        defaultZone: http://localhost:8761/eureka
+eureka:
+  client:
+    fetchRegistry: true  # Fetch registry from Eureka server
+    registerWithEureka: true  # Register this service with Eureka
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/  # Eureka server URL
