@@ -8,7 +8,7 @@ eureka:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/ivxstudio  # Database URL
-    username: ivx-app # Username
+    username: ivxapp # Username
     password: ivx@studio # Password
     hikari:
       poolName: HikariCP  # Connection pool name (HikariCP is the default)
